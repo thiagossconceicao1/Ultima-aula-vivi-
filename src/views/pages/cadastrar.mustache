@@ -1,0 +1,17 @@
+{{partials/header}}
+
+<h1>Adicionar Usuarios</h1>
+
+<form action="/cadastro" method="POST">
+
+    nome: <br>
+    <input type="text" name="nome"> <br>
+    email: <br>
+    <input type="email" name="email" required><br><br>
+    <input type="submit" value="Cadastrar">
+
+</form>
+
+<a href="/usuarios">Clique aqui</a> para voltar a página de usuários
+
+{{<partials/footer}}
